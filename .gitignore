@@ -38,5 +38,5 @@ DerivedData
 ## Package
 Carthage/
 Package.resolved
-Cartfile.resolved
+# Cartfile.resolved
 
