@@ -65,8 +65,8 @@ import UIKit
     @objc public var folderDefaultAutoUpload:           String = "Photos"
     
     // Capabilities Group
-    @objc public var capabilitiesGroups:                String = "group.it.twsweb.Crypto-Cloud"
-    
+    @objc public var capabilitiesGroups:                String = "group.prider.icloud"
+    //修改group
     // User Agent
     @objc public var userAgent:                         String = "Nextcloud-iOS"                                    // Don't touch me !!
     
@@ -86,7 +86,11 @@ import UIKit
     @objc public var disable_manage_account:            Bool = false
     @objc public var disable_more_external_site:        Bool = false
     @objc public var disable_openin_file:               Bool = false                                                // Don't touch me !!
-    @objc public var disable_crash_service:             Bool = false
+    //FIXME: uild fails (missing GoogleService-info.plist) #642 https://github.com/nextcloud/ios/issues/642
+    //marinofaggiana commented on 12 Jan
+    //please remove GoogleService-Info.plist from project and set the NCBrand disable_crash_service to true
+    @objc public var disable_crash_service:             Bool = true
+    
     @objc public var disable_request_account:           Bool = false
     @objc public var disable_log:                       Bool = false
 

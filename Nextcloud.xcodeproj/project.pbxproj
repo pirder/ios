@@ -11,12 +11,15 @@
 		2C1D5D7623E2DE3300334ABB /* NCManageDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BAADB51ED5A87C00B7EAD4 /* NCManageDatabase.swift */; };
 		2C1D5D7923E2DE9100334ABB /* NCBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3CCD1EAE01BD00921AC9 /* NCBrand.swift */; };
 		2C33C48223E2C475005F963B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C33C48123E2C475005F963B /* NotificationService.swift */; };
-		2C33C48623E2C475005F963B /* Notification Service Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C33C47F23E2C475005F963B /* Notification Service Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2CB7D1CA23E2EDCB00376EF9 /* NCPushNotificationEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = F72D1005210B6882009C96B7 /* NCPushNotificationEncryption.m */; };
 		3704EB2A23D5A58400455C5B /* NCMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3704EB2923D5A58400455C5B /* NCMenu.storyboard */; };
 		370D26AF248A3D7A00121797 /* NCImageCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D26AE248A3D7A00121797 /* NCImageCellProtocol.swift */; };
 		371B5A2E23D0B04500FAFAE9 /* NCMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B5A2D23D0B04500FAFAE9 /* NCMenu.swift */; };
 		3781B9B023DB2B7E006B4B1D /* AppDelegate+Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3781B9AF23DB2B7E006B4B1D /* AppDelegate+Menu.swift */; };
+		6A83CFD52735252D000AC3CD /* KTVHTTPCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86792642CF5300ED5349 /* KTVHTTPCache.xcframework */; };
+		6A83CFF427352FD7000AC3CD /* Share.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F7CE8AFB1DC1F8D8009CAE48 /* Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A83CFF527352FD7000AC3CD /* File Provider Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F771E3D020E2392D00AFB62D /* File Provider Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A83CFF627352FD7000AC3CD /* Notification Service Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C33C47F23E2C475005F963B /* Notification Service Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F700222C1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F700222D1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F700510122DF63AC003A3356 /* NCShare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F700510022DF63AC003A3356 /* NCShare.storyboard */; };
@@ -141,7 +144,6 @@
 		F749C10C23C4A5340027D966 /* NCIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F749C10823C4A5330027D966 /* NCIntroViewController.swift */; };
 		F749C10D23C4A5340027D966 /* NCIntro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F749C10923C4A5330027D966 /* NCIntro.storyboard */; };
 		F749C10E23C4A5340027D966 /* NCIntroCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F749C10A23C4A5340027D966 /* NCIntroCollectionViewCell.xib */; };
-		F749E4E91DC1FB38009BA2FD /* Share.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F7CE8AFB1DC1F8D8009CAE48 /* Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F74AF3A4247FB6AE00AC767B /* NCUtilityFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74AF3A3247FB6AE00AC767B /* NCUtilityFileSystem.swift */; };
 		F74AF3A5247FB6AE00AC767B /* NCUtilityFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74AF3A3247FB6AE00AC767B /* NCUtilityFileSystem.swift */; };
 		F74AF3A6247FB6AE00AC767B /* NCUtilityFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74AF3A3247FB6AE00AC767B /* NCUtilityFileSystem.swift */; };
@@ -200,7 +202,6 @@
 		F771E3D320E2392D00AFB62D /* FileProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771E3D220E2392D00AFB62D /* FileProviderExtension.swift */; };
 		F771E3D520E2392D00AFB62D /* FileProviderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771E3D420E2392D00AFB62D /* FileProviderItem.swift */; };
 		F771E3D720E2392D00AFB62D /* FileProviderEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771E3D620E2392D00AFB62D /* FileProviderEnumerator.swift */; };
-		F771E3EB20E2392E00AFB62D /* File Provider Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F771E3D020E2392D00AFB62D /* File Provider Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F771E3F320E239A600AFB62D /* FileProviderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771E3F220E239A600AFB62D /* FileProviderData.swift */; };
 		F771E3F720E239B500AFB62D /* FileProviderExtension+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771E3F420E239B400AFB62D /* FileProviderExtension+Actions.swift */; };
 		F771E3F820E239B500AFB62D /* FileProviderExtension+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771E3F520E239B400AFB62D /* FileProviderExtension+Thumbnail.swift */; };
@@ -281,7 +282,6 @@
 		F7AE00F8230E81CB007ACF8A /* NCBrowserWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE00F7230E81CB007ACF8A /* NCBrowserWeb.swift */; };
 		F7AE00FA230E81EB007ACF8A /* NCBrowserWeb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AE00F9230E81EB007ACF8A /* NCBrowserWeb.storyboard */; };
 		F7B7504B2397D38F004E13EC /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B7504A2397D38E004E13EC /* UIImage+Extensions.swift */; };
-		F7B8B83025681C3400967775 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7B8B82F25681C3400967775 /* GoogleService-Info.plist */; };
 		F7B8CD91261AF3F7007C1359 /* NCNetworkingChunkedUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8CD90261AF3F7007C1359 /* NCNetworkingChunkedUpload.swift */; };
 		F7B8CD96261AF401007C1359 /* NCNetworkingChunkedUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8CD90261AF3F7007C1359 /* NCNetworkingChunkedUpload.swift */; };
 		F7B8CD9B261AF401007C1359 /* NCNetworkingChunkedUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8CD90261AF3F7007C1359 /* NCNetworkingChunkedUpload.swift */; };
@@ -335,33 +335,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C33C48423E2C475005F963B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7F67BA01A24D27800EE80DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C33C47E23E2C475005F963B;
-			remoteInfo = "Notification Service Extension";
-		};
-		F7145A311D12E65F00CAFEEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7F67BA01A24D27800EE80DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F71459B41D12E3B700CAFEEC;
-			remoteInfo = "Share Ext Nextcloud";
-		};
-		F771E3E920E2392E00AFB62D /* PBXContainerItemProxy */ = {
+		6A83CFEE27352FCB000AC3CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F7F67BA01A24D27800EE80DA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F771E3CF20E2392D00AFB62D;
 			remoteInfo = "File Provider Extension";
 		};
+		6A83CFF027352FCB000AC3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7F67BA01A24D27800EE80DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C33C47E23E2C475005F963B;
+			remoteInfo = "Notification Service Extension";
+		};
+		6A83CFF227352FCB000AC3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7F67BA01A24D27800EE80DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71459B41D12E3B700CAFEEC;
+			remoteInfo = Share;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F70B86782642CF5300ED5349 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
@@ -386,9 +386,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F771E3EB20E2392E00AFB62D /* File Provider Extension.appex in Embed App Extensions */,
-				F749E4E91DC1FB38009BA2FD /* Share.appex in Embed App Extensions */,
-				2C33C48623E2C475005F963B /* Notification Service Extension.appex in Embed App Extensions */,
+				6A83CFF427352FD7000AC3CD /* Share.appex in Embed App Extensions */,
+				6A83CFF527352FD7000AC3CD /* File Provider Extension.appex in Embed App Extensions */,
+				6A83CFF627352FD7000AC3CD /* Notification Service Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,7 +688,6 @@
 		F7B1076C25D3CF2800E72DE2 /* BackgroundTasks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackgroundTasks.framework; path = System/Library/Frameworks/BackgroundTasks.framework; sourceTree = SDKROOT; };
 		F7B1A7761EBB3C8000BFB6D1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7B7504A2397D38E004E13EC /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
-		F7B8B82F25681C3400967775 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		F7B8CD90261AF3F7007C1359 /* NCNetworkingChunkedUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCNetworkingChunkedUpload.swift; sourceTree = "<group>"; };
 		F7BAADB41ED5A87C00B7EAD4 /* NCDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCDatabase.swift; sourceTree = "<group>"; };
 		F7BAADB51ED5A87C00B7EAD4 /* NCManageDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCManageDatabase.swift; sourceTree = "<group>"; };
@@ -771,6 +770,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A83CFD52735252D000AC3CD /* KTVHTTPCache.xcframework in Frameworks */,
 				F70B869D2642CF6900ED5349 /* OpenSSL.xcframework in Frameworks */,
 				F73ADD2126554F8E0069EA0D /* SwiftEntryKit in Frameworks */,
 				F75E57BF25BF0EC8002B72C2 /* SVGKit in Frameworks */,
@@ -1340,7 +1340,6 @@
 				F710E80C1EF95C9C00DC2427 /* Intro */,
 				F700222B1EC479840080073F /* Custom.xcassets */,
 				F7D0F33D264144FC0097D4A3 /* Background.xcassets */,
-				F7B8B82F25681C3400967775 /* GoogleService-Info.plist */,
 				F7362A1E220C853A005101B5 /* LaunchScreen.storyboard */,
 				F73CB5771ED46807005F2A5A /* NCBridgeSwift.h */,
 				F76B3CCD1EAE01BD00921AC9 /* NCBrand.swift */,
@@ -1716,9 +1715,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				F7145A321D12E65F00CAFEEC /* PBXTargetDependency */,
-				F771E3EA20E2392E00AFB62D /* PBXTargetDependency */,
-				2C33C48523E2C475005F963B /* PBXTargetDependency */,
+				6A83CFEF27352FCB000AC3CD /* PBXTargetDependency */,
+				6A83CFF127352FCB000AC3CD /* PBXTargetDependency */,
+				6A83CFF327352FCB000AC3CD /* PBXTargetDependency */,
 			);
 			name = Nextcloud;
 			packageProductDependencies = (
@@ -1750,11 +1749,9 @@
 				TargetAttributes = {
 					2C33C47E23E2C475005F963B = {
 						CreatedOnToolsVersion = 11.3.1;
-						DevelopmentTeam = 6JLRKY9ZV7;
 						ProvisioningStyle = Automatic;
 					};
 					F71459B41D12E3B700CAFEEC = {
-						DevelopmentTeam = 6JLRKY9ZV7;
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -1767,12 +1764,10 @@
 					};
 					F771E3CF20E2392D00AFB62D = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = 6JLRKY9ZV7;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					F77B0DEB1D118A16002130FE = {
-						DevelopmentTeam = 6JLRKY9ZV7;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -1925,7 +1920,6 @@
 				F710E8111EF95C9C00DC2427 /* ImagesIntro.xcassets in Resources */,
 				F76032A0252F0F8E0015A421 /* NCTransferCell.xib in Resources */,
 				F74C0437253F1CDC009762AB /* NCShares.storyboard in Resources */,
-				F7B8B83025681C3400967775 /* GoogleService-Info.plist in Resources */,
 				F7381EE5218218C9000B1560 /* NCOffline.storyboard in Resources */,
 				F7E0CDCF265CE8610044854E /* NCUserStatus.storyboard in Resources */,
 				F76D3CF32428B94E005DFA87 /* NCViewerPDFSearchCell.xib in Resources */,
@@ -2217,20 +2211,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2C33C48523E2C475005F963B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2C33C47E23E2C475005F963B /* Notification Service Extension */;
-			targetProxy = 2C33C48423E2C475005F963B /* PBXContainerItemProxy */;
-		};
-		F7145A321D12E65F00CAFEEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F71459B41D12E3B700CAFEEC /* Share */;
-			targetProxy = F7145A311D12E65F00CAFEEC /* PBXContainerItemProxy */;
-		};
-		F771E3EA20E2392E00AFB62D /* PBXTargetDependency */ = {
+		6A83CFEF27352FCB000AC3CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F771E3CF20E2392D00AFB62D /* File Provider Extension */;
-			targetProxy = F771E3E920E2392E00AFB62D /* PBXContainerItemProxy */;
+			targetProxy = 6A83CFEE27352FCB000AC3CD /* PBXContainerItemProxy */;
+		};
+		6A83CFF127352FCB000AC3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C33C47E23E2C475005F963B /* Notification Service Extension */;
+			targetProxy = 6A83CFF027352FCB000AC3CD /* PBXContainerItemProxy */;
+		};
+		6A83CFF327352FCB000AC3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71459B41D12E3B700CAFEEC /* Share */;
+			targetProxy = 6A83CFF227352FCB000AC3CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2309,7 +2303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = MH5QBV9URE;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREFIX_HEADER = "";
@@ -2331,7 +2325,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.twsweb.Nextcloud.Notification-Service-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "priders.it.twsweb.Nextcloud.Notification-Service-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_NOTIFICATION_SERVICE";
@@ -2362,7 +2356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = MH5QBV9URE;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREFIX_HEADER = "";
@@ -2383,7 +2377,7 @@
 				MARKETING_VERSION = 4.0.6;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.twsweb.Nextcloud.Notification-Service-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "priders.it.twsweb.Nextcloud.Notification-Service-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_NOTIFICATION_SERVICE";
@@ -2406,7 +2400,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = MH5QBV9URE;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "";
@@ -2426,7 +2420,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 4.0.6;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = it.twsweb.Nextcloud.Share;
+				PRODUCT_BUNDLE_IDENTIFIER = priders.it.twsweb.Nextcloud.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_SHARE";
@@ -2451,7 +2445,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = MH5QBV9URE;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "";
@@ -2471,7 +2465,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 4.0.6;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = it.twsweb.Nextcloud.Share;
+				PRODUCT_BUNDLE_IDENTIFIER = priders.it.twsweb.Nextcloud.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_SHARE";
@@ -2485,7 +2479,6 @@
 		F771E3F020E2392E00AFB62D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -2503,7 +2496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = MH5QBV9URE;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREFIX_HEADER = "";
@@ -2523,7 +2516,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 4.0.6;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.twsweb.Nextcloud.File-Provider-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "priders.it.twsweb.Nextcloud.File-Provider-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_FILE_PROVIDER_EXTENSION";
@@ -2537,7 +2530,6 @@
 		F771E3F120E2392E00AFB62D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -2555,7 +2547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = MH5QBV9URE;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREFIX_HEADER = "";
@@ -2575,7 +2567,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 4.0.6;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.twsweb.Nextcloud.File-Provider-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "priders.it.twsweb.Nextcloud.File-Provider-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_FILE_PROVIDER_EXTENSION";
@@ -2598,7 +2590,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = MH5QBV9URE;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2617,7 +2609,7 @@
 				MARKETING_VERSION = 4.0.6;
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.twsweb.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = priders.it.twsweb.Nextcloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2645,7 +2637,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = MH5QBV9URE;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2662,7 +2654,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 4.0.6;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.twsweb.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = priders.it.twsweb.Nextcloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

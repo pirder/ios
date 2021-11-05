@@ -142,7 +142,8 @@ class NCManageDatabase: NSObject {
                     return (totalBytes > oneHundredMB) && (Double(usedBytes) / Double(totalBytes)) < 0.5
                 }
             )
-            
+            // FIX ME : _path    String?    nil    none
+            //_inMemoryIdentifier    String?    nil    none
             do {
                 _ = try Realm(configuration: configCompact)
             } catch {
